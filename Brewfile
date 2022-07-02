@@ -1,0 +1,50 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "microsoft/git"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "qmk/qmk"
+brew "autojump"
+brew "awscli"
+brew "azure-cli"
+brew "bat"
+brew "cheat"
+brew "cmatrix"
+brew "exa"
+brew "figlet"
+brew "gh"
+brew "git"
+brew "unbound"
+brew "helm"
+brew "httpie"
+brew "hugo"
+brew "jq"
+brew "mas"
+brew "neovim"
+brew "nghttp2"
+brew "openjdk"
+brew "php"
+brew "starship"
+brew "terraform"
+brew "tree"
+brew "vim"
+brew "zsh"
+brew "zsh-syntax-highlighting"
+brew "qmk/qmk/qmk"
+cask "font-fira-code"
+cask "git-credential-manager-core"
+cask "hyper"
+cask "powershell"
+mas "Be Focused Pro", id: 961632517
+mas "Kindle", id: 405399194
+mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "MINDSTORMS", id: 1515448947
+mas "MiniPlay", id: 936243210
+mas "mSecure", id: 1157750250
+mas "Slack", id: 803453959
+mas "Todoist", id: 585829637
