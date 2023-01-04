@@ -107,4 +107,7 @@ alias st="git status"
 # This enables syntax-highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-
+# Make handy function
+function mkcd() {
+    mkdir -p "$@" && cd "$_";
+}
