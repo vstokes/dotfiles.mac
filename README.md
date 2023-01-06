@@ -26,7 +26,7 @@ Phase 1
 
 3. git
 
-i.  gitconfig: This has been setup and configured in Dotbot.
+  gitconfig: This has been setup and configured in Dotbot.
 
 4. brew
 
