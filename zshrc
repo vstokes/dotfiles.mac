@@ -49,6 +49,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Variables
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # Add Visual Studio Code [code]
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
