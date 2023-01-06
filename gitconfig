@@ -1,0 +1,7 @@
+[user]
+	name = Van Stokes
+	email = 34285051+vstokes@users.noreply.github.com
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
