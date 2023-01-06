@@ -36,6 +36,7 @@ brew "zsh-syntax-highlighting"
 cask "calibre"
 cask "font-fira-code"
 cask "git-credential-manager-core"
+cask "visual-studio-code"
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
