@@ -7,11 +7,17 @@
 - link: 
     ~/.gitconfig:
     ~/.zshrc: 
+    ~/.vimrc:
 
 - create:
     - ~/Work
+    - ~/hey/you/guys
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
-  - echo "hey you guys"
-  - sleep 6
+#  - [git submodule update --init --recursive, Installing submodules]
+  -
+    command: ./setup_homebrew.zsh
+    stdout: true 
+    stderr: true
+  
+  
