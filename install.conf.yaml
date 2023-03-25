@@ -10,14 +10,12 @@
     ~/.vimrc:
 
 - create:
-    - ~/Work
-    - ~/hey/you/guys
 
 - shell:
 #  - [git submodule update --init --recursive, Installing submodules]
   -
-    command: ./setup_homebrew.zsh
-    stdout: true 
-    stderr: true
+  #command: ./setup_homebrew.zsh
+  # stdout: true 
+  #  stderr: true
   
   
