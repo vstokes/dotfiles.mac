@@ -14,7 +14,7 @@ Phase 1
 
   - Run the following command to install:
     - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-    - I am currently using the `half-life` as my ZSH_THEME.
+    - I am currently using the `alanpeabody` as my ZSH_THEME.
     - I will be adding things to this as time goes on, but currently I need to get it setup to where it makes sense for other people.
   - ohmyzsh extensions
     - This will house information about which extensions I am using.
@@ -23,10 +23,12 @@ Phase 1
 
 - vimrc
 - add-ons
+    - completed
 
 3. git
 
   gitconfig: This has been setup and configured in Dotbot.
+  -  completed
 
 4. brew
 
