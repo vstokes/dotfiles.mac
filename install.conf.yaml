@@ -1,6 +1,6 @@
 - defaults:
     link:
-      relink:  true
+      relink:  false
 
 - clean: ['~']
 
@@ -8,12 +8,14 @@
     ~/.tmux.conf: tmux.conf
     ~/.gitconfig: gitconfig
     ~/.zshrc/: zshrc/zshrc.conf
+    ~/.zsh/: zshrc
     ~/.vimrc: vimrc
 
-- create:
+
 - shell:
-#  - [git submodule update --init --recursive, Installing submodules]
-  -
+
+#- [git submodule update --init --recursive, Installing submodules]
+
   #command: ./setup_homebrew.zsh
   # stdout: true 
   #  stderr: true
