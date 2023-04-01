@@ -31,6 +31,7 @@ brew "python@3.11"
 brew "gobject-introspection"
 brew "httpie"
 brew "hugo"
+brew "ipcalc"
 brew "jq"
 brew "libraqm"
 brew "mas"
@@ -56,6 +57,8 @@ cask "visual-studio-code"
 mas "Kindle", id: 405399194
 mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "MindNode", id: 1289197285
 mas "MINDSTORMS", id: 1515448947
 mas "mSecure", id: 1157750250
 mas "Todoist", id: 585829637
