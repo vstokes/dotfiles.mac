@@ -12,6 +12,7 @@
     ~/.zshrc/: zshrc/zshrc.conf
     ~/.zsh/: zshrc
     ~/.vimrc: vimrc
+    ~/.config/bat/config: bat/batconfig.conf
 
 
 - shell:
