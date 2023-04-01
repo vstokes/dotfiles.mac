@@ -10,7 +10,9 @@
     ~/.tmux.conf: tmux.conf
     ~/.gitconfig: gitconfig
     ~/.zshrc/: zshrc/zshrc.conf
-    ~/.zsh/: zshrc
+    ~/.zsh: zshrc
+#      create: true
+#      path: zshrc/
     ~/.vimrc: vimrc
 #    ~/.config/bat/config: bat/batconfig.conf
     ~/.config/bat:
@@ -19,7 +21,8 @@
 
 
 - shell:
-#- [git submodule update --init --recursive, Installing submodules]
+
+  - [git submodule update --init --recursive, Installing submodules]
 
   - echo "hey you guys"
   - sleep 2
