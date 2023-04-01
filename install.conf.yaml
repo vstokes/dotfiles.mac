@@ -3,6 +3,8 @@
       relink:  false
 
 - clean: ['~']
+    #remove:
+     # - ~/.bash_history
 
 - link: 
     ~/.tmux.conf: tmux.conf
@@ -13,8 +15,14 @@
 
 
 - shell:
-
 #- [git submodule update --init --recursive, Installing submodules]
+
+  - echo "hey you guys"
+  - sleep 2
+  - 
+    command: ./test.zsh
+    stdout: true
+    stderr: true
 
   #command: ./setup_homebrew.zsh
   # stdout: true 
